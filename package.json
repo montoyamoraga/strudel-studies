@@ -1,5 +1,23 @@
 {
+  "name": "strudel-studies",
+  "description": "",
+  "version": "0.0.1",
+  "main": "main.js",
+  "devDependencies": {},
   "dependencies": {
     "@strudel.cycles/core": "^0.1.2"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montoyamoraga/strudel-studies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montoyamoraga/strudel-studies/issues"
+  },
+  "homepage": "https://github.com/montoyamoraga/strudel-studies#readme"
 }
