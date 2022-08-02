@@ -2,13 +2,16 @@
   "name": "strudel-studies",
   "description": "",
   "version": "0.0.1",
-  "main": "main.js",
-  "devDependencies": {},
+  "main": "index.js",
   "dependencies": {
-    "@strudel.cycles/core": "^0.1.2"
+    "@strudel.cycles/core": "^0.1.2",
+    "@strudel.cycles/tone": "^0.1.3",
+    "strudel": "^1.0.5",
+    "tone": "^14.7.77"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html --https"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/montoyamoraga/strudel-studies/issues"
   },
-  "homepage": "https://github.com/montoyamoraga/strudel-studies#readme"
+  "homepage": "https://github.com/montoyamoraga/strudel-studies#readme",
+  "devDependencies": {
+    "events": "^3.3.0"
+  }
 }
