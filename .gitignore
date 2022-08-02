@@ -1,6 +1,9 @@
 # Apple
 .DS_Store
 
+# dist/
+dist/
+
 # Node.js
 node_modules/
 
