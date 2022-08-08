@@ -26,8 +26,8 @@ class UserInterface {
     });
 
     this.buttonStartStop.addEventListener('click', async () => {
-      this.strudelDrums.init();
       await Tone.start();
+      this.strudelDrums.init();
       Tone.getTransport().stop();
       Tone.getTransport().start('+0.1');
     });
