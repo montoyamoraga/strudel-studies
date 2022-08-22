@@ -8,6 +8,10 @@
 // variables for user interface
 // let userInterface;
 
+// matthew recommends implementing this:
+// https://github.com/tidalcycles/strudel/blob/main/packages/react/src/hooks/useCycle.mjs#L27-L58
+// paired with another function that keeps on calling that one
+
 import {
   sequence,
   stack,
